@@ -83,15 +83,19 @@ class Dashboard extends StatelessWidget {
               ),
               title: Text("Logout"),
             ),
+            Divider(
+              thickness: 2,
+            ),
+            Divider(
+              thickness: 2,
+            ),
           ],
         ),
       ),
       appBar: AppBar(
-        title: Text("Home Page"),
+        title: Text("Home Page of blogging "),
         centerTitle: true,
       ),
     );
   }
 }
-
-
